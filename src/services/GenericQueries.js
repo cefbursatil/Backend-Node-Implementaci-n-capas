@@ -1,3 +1,4 @@
+//Configuramos Generic QUERIS CON ESTRUCTURA DAO
 export default class GenericQueries {
   constructor(dao, model) {
     this.dao = dao;

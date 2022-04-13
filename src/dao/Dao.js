@@ -4,6 +4,7 @@ import { Cart, Product, User } from "./models/index.js";
 import { returnMessage } from "../utils/functions.js";
 import { toObj, removeField, renameField } from "../utils/functions.js";
 
+//Configuramos DAO para mejorar el aPI
 export default class Dao {
   constructor() {
     this.mongoose = mongoose
